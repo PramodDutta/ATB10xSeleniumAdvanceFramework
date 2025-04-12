@@ -1,19 +1,17 @@
-package com.thetestingacademy.tests.pom;
+package com.thetestingacademy.tests.pom.vwo;
 
-import com.thetestingacademy.pages.pageObjectModel.appvwo.DashboardPage;
-import com.thetestingacademy.pages.pageObjectModel.appvwo.LoginPage;
+import com.thetestingacademy.pages.pageObjectModel.appvwo.normal_POM.DashboardPage;
+import com.thetestingacademy.pages.pageObjectModel.appvwo.normal_POM.LoginPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import static org.assertj.core.api.Assertions.*;
 
-public class TestVWOLogin_01_NormalScript {
+public class TestVWOLogin_01_NormalScript_POM {
 
     @Description("Verify that with invalid email, pass, error message is shown on the app.vwo.com")
     @Test
