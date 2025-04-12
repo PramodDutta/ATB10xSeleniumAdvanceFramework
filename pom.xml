@@ -8,18 +8,105 @@
   <packaging>jar</packaging>
 
   <name>ATB10xSeleniumAdvanceFramework</name>
-  <url>http://maven.apache.org</url>
+  <url>http://app.vwo.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencies>
+
+
+
+    <!-- Selenium-java -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.31.0</version>
+    </dependency>
+
+    <!-- Testng -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.11.0</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- Allure Report TestNG-java -->
+
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-testng</artifactId>
+      <version>2.26.0</version>
+    </dependency>
+
+
+    <!-- ReportNG - Reports -java -->
+
+    <dependency>
+      <groupId>org.uncommons</groupId>
+      <artifactId>reportng</artifactId>
+      <version>1.1.2</version>
+      <scope>test</scope>
+    </dependency>
+
+
+    <!-- AssertJ  - assertions -->
+
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>3.25.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>3.0.0-beta2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>3.0.0-beta2</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>5.2.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>5.2.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml-schemas</artifactId>
+      <version>4.1.2</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>3.0.0-beta2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>3.0.0-beta2</version>
+    </dependency>
+
+
+
+
   </dependencies>
 </project>

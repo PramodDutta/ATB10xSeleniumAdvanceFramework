@@ -1,2 +1,4 @@
-package com.thetestingacademy.pages.pageObjectModel.appvwo;public class FreeTrialPage {
+package com.thetestingacademy.pages.pageObjectModel.appvwo;
+
+public class FreeTrialPage {
 }
